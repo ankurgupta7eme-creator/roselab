@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<title>My Account — Rose Laboratories</title>
+<meta name="description" content="Your Rose Laboratories account and order requests.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.roselaboratories.com/account.html">
+<meta name="theme-color" content="#0B7A75">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Rose Laboratories">
+<meta property="og:title" content="My Account — Rose Laboratories">
+<meta property="og:description" content="Your Rose Laboratories account and order requests.">
+<meta property="og:url" content="https://www.roselaboratories.com/account.html">
+<meta property="og:image" content="https://www.roselaboratories.com/assets/logo-transparent.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="My Account — Rose Laboratories">
+<meta name="twitter:description" content="Your Rose Laboratories account and order requests.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/extra.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav">
+    <a href="home.html" class="nav-brand">
+      <img src="assets/logo-transparent.png" alt="Rose Laboratories crest">
+      <span class="wordmark"><b>Rose Laboratories</b></span>
+    </a>
+    <nav class="nav-links">
+      <a href="home.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="products.html">Products</a>
+      <a href="certifications.html">Certifications</a>
+      <div class="nav-dropdown">
+        <button class="nav-dropdown-trigger" type="button" aria-haspopup="true" aria-expanded="false">Partners <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M6 9l6 6 6-6"/></svg></button>
+        <div class="dropdown-menu">
+          <span class="dd-label">Partner With Us</span>
+          <a href="b2b.html">B2B / OEM Manufacturing</a>
+          <a href="careers.html">Careers & Partnerships</a>
+          <a href="resources.html">Resources & Downloads</a>
+        </div>
+      </div>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="nav-cta">
+      <span class="nav-phone">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        +91 94722 77067
+      </span>
+      <a href="register.html" class="nav-icon-link" id="navRegisterLink">Register</a>
+      <a href="account.html" class="nav-icon-link" id="navAccountLink" aria-label="Account">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+        <span class="nav-icon-text" id="navAccountText">Login</span>
+      </a>
+      <a href="cart.html" class="nav-icon-link nav-cart-link" aria-label="Cart">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+        <span class="cart-badge" id="cartBadge">0</span>
+      </a>
+      <a href="contact.html" class="btn btn-primary btn-sm">Enquire Now</a>
+      <button class="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+  <div class="mobile-panel">
+    <a href="home.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="products.html">Products</a>
+    <a href="certifications.html">Certifications</a>
+    <a href="b2b.html">B2B / OEM Manufacturing</a>
+    <a href="careers.html">Careers & Partnerships</a>
+    <a href="resources.html">Resources & Downloads</a>
+    <a href="contact.html">Contact</a>
+    <a href="tel:+919472277067">Call +91 94722 77067</a>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="crumb"><a href="home.html">Home</a> / Account</div>
+    <h1>My Account</h1>
+    <p class="lede" style="margin-top:18px;">Your details and order requests with Rose Laboratories.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+
+    <div id="loggedOutView" style="display:none;" class="form-card">
+      <p style="margin-bottom:20px; color:var(--text-soft);">You're not logged in.</p>
+      <a href="login.html" class="btn btn-primary btn-block">Log In</a>
+      <p class="form-foot">New here? <a href="register.html">Create an account</a></p>
+    </div>
+
+    <div id="loggedInView" style="display:none;">
+      <div class="account-grid">
+        <div class="card">
+          <p class="eyebrow">Account</p>
+          <div id="profileView">
+            <h3 id="acctName" style="margin-bottom:6px;"></h3>
+            <p style="color:var(--text-soft); font-size:14px; margin-bottom:4px;" id="acctEmail"></p>
+            <p style="color:var(--text-soft); font-size:14px; margin-bottom:20px;" id="acctPhone"></p>
+            <button class="btn btn-ghost btn-sm" id="editProfileBtn">Edit Profile</button>
+            <button class="btn btn-ghost btn-sm" id="logoutBtn">Log Out</button>
+            <a class="btn btn-ghost btn-sm" id="adminLink" href="admin.html" style="display:none;">Admin Dashboard</a>
+          </div>
+          <div id="profileEdit" style="display:none;">
+            <label style="display:block; font-size:13px; margin-bottom:4px;">Name</label>
+            <input type="text" id="editName" style="margin-bottom:12px;">
+            <label style="display:block; font-size:13px; margin-bottom:4px;">Phone</label>
+            <input type="text" id="editPhone" style="margin-bottom:16px;">
+            <div class="form-error" id="profileError"></div>
+            <button class="btn btn-primary btn-sm" id="saveProfileBtn">Save</button>
+            <button class="btn btn-ghost btn-sm" id="cancelProfileBtn">Cancel</button>
+          </div>
+        </div>
+        <div class="card">
+          <p class="eyebrow">Order Requests</p>
+          <h3 style="margin-bottom:20px;">My Orders</h3>
+          <div id="ordersList"></div>
+        </div>
+        <div class="card" style="grid-column:1 / -1;">
+          <p class="eyebrow">Addresses</p>
+          <h3 style="margin-bottom:20px;">Saved Addresses</h3>
+          <div id="addressList" style="margin-bottom:16px;"></div>
+          <button class="btn btn-ghost btn-sm" id="addAddressBtn">+ Add New Address</button>
+          <div id="addressForm" style="display:none; margin-top:16px; max-width:420px;">
+            <input type="hidden" id="addrId">
+            <label style="display:block; font-size:13px; margin-bottom:4px;">Label (e.g. Home, Office)</label>
+            <input type="text" id="addrLabel" style="margin-bottom:10px;">
+            <label style="display:block; font-size:13px; margin-bottom:4px;">Recipient Name</label>
+            <input type="text" id="addrName" style="margin-bottom:10px;">
+            <label style="display:block; font-size:13px; margin-bottom:4px;">Phone</label>
+            <input type="text" id="addrPhone" style="margin-bottom:10px;">
+            <label style="display:block; font-size:13px; margin-bottom:4px;">Address Line 1</label>
+            <input type="text" id="addrLine1" style="margin-bottom:10px;">
+            <label style="display:block; font-size:13px; margin-bottom:4px;">Address Line 2 (optional)</label>
+            <input type="text" id="addrLine2" style="margin-bottom:10px;">
+            <label style="display:block; font-size:13px; margin-bottom:4px;">City</label>
+            <input type="text" id="addrCity" style="margin-bottom:10px;">
+            <label style="display:block; font-size:13px; margin-bottom:4px;">State</label>
+            <input type="text" id="addrState" style="margin-bottom:10px;">
+            <label style="display:block; font-size:13px; margin-bottom:4px;">Pincode</label>
+            <input type="text" id="addrPincode" style="margin-bottom:10px;">
+            <label style="display:flex; align-items:center; gap:8px; font-size:13px; margin-bottom:14px;">
+              <input type="checkbox" id="addrDefault" style="width:auto;"> Set as default address
+            </label>
+            <div class="form-error" id="addrError"></div>
+            <button class="btn btn-primary btn-sm" id="saveAddrBtn">Save Address</button>
+            <button class="btn btn-ghost btn-sm" id="cancelAddrBtn">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img class="crest" src="assets/logo-transparent.png" alt="Rose Laboratories crest">
+        <p>Standardized Wisdom. Disciplined Science. Manufacturing classical and proprietary Ayurvedic formulations since 1983 from our WHO-GMP compliant, ZED Bronze-certified facility in Fatuha, Patna.</p>
+        <a href="https://instagram.com/rose.laboratories" target="_blank" rel="noopener" class="footer-social-link" aria-label="Rose Laboratories on Instagram" style="display:inline-flex; align-items:center; gap:6px; margin-top:12px;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          <span>@rose.laboratories</span>
+        </a>
+      </div>
+      <div class="footer-col">
+        <h5>Navigate</h5>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="certifications.html">Certifications</a></li>
+          <li><a href="b2b.html">B2B / OEM</a></li>
+          <li><a href="careers.html">Careers & Partnerships</a></li>
+          <li><a href="resources.html">Resources & Downloads</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Credentials</h5>
+        <ul>
+          <li>ZED Bronze Certified</li>
+          <li>WHO-GMP Compliant</li>
+          <li>UDYAM-BR-26-0000468</li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Contact</h5>
+        <ul>
+          <li><a href="tel:+919472277067"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg> +91 94722 77067</a> (Managing Director)</li>
+          <li><a href="tel:+917080866023"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg> +91 70808 66023</a> (Strategic Advisor)</li>
+          <li><a href="tel:+917087483390"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg> +91 70874 83390</a> (Marketing Head)</li>
+          <li><a href="mailto:roselaboratories1983@gmail.com"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z"/><path d="M22 6l-10 7L2 6"/></svg> roselaboratories1983@gmail.com</a></li>
+          <li style="display:flex; gap:8px; align-items:flex-start;"><span style="flex-shrink:0; margin-top:3px;"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 1 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span><span>No. 04, Phase 2, Industrial Area, Fatuha, Patna, Bihar – 803201</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span class="fm">© <span data-year></span> Rose Laboratories. All rights reserved.</span>
+      <span class="fm"><a href="privacy-policy.html" style="color:inherit;">Privacy Policy</a> &nbsp;·&nbsp; <a href="terms-conditions.html" style="color:inherit;">Terms &amp; Conditions</a></span>
+    </div>
+  </div>
+</footer>
+<script src="js/cart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+<script src="js/auth.js"></script>
+<script src="js/chat-config.js"></script>
+<script src="js/chat-widget.js"></script>
+<script src="js/ui-enhancements.js"></script>
+<script src="js/main.js"></script>
+<script src="js/site-extras.js"></script>
+<script>
+
+(async function(){
+
+var user = await RoseAuth.currentUser();
+if(!user){
+  document.getElementById("loggedOutView").style.display = "block";
+} else {
+  document.getElementById("loggedInView").style.display = "block";
+  document.getElementById("acctName").textContent = user.name;
+  document.getElementById("acctEmail").textContent = user.email;
+  document.getElementById("acctPhone").textContent = user.phone;
+  document.getElementById("logoutBtn").addEventListener("click", async function(){
+    await RoseAuth.logout();
+    window.location.href = "home.html";
+  });
+
+  // Show an Admin Dashboard shortcut only if this account actually has admin access.
+  RoseAuth.getAccessToken().then(function(token){
+    if(!token) return;
+    fetch("/api/public/admin/me", { headers: { "Authorization": "Bearer " + token } })
+      .then(function(r){ if(r.ok) document.getElementById("adminLink").style.display = "inline-flex"; })
+      .catch(function(){});
+  });
+
+  // ---- Profile edit ----
+  var profileView = document.getElementById("profileView");
+  var profileEdit = document.getElementById("profileEdit");
+  document.getElementById("editProfileBtn").addEventListener("click", function(){
+    document.getElementById("editName").value = user.name || "";
+    document.getElementById("editPhone").value = user.phone || "";
+    profileView.style.display = "none";
+    profileEdit.style.display = "block";
+  });
+  document.getElementById("cancelProfileBtn").addEventListener("click", function(){
+    profileEdit.style.display = "none";
+    profileView.style.display = "block";
+  });
+  document.getElementById("saveProfileBtn").addEventListener("click", async function(){
+    var errEl = document.getElementById("profileError");
+    errEl.classList.remove("show");
+    var res = await RoseAuth.updateProfile(document.getElementById("editName").value.trim(), document.getElementById("editPhone").value.trim());
+    if(!res.ok){ errEl.textContent = res.error; errEl.classList.add("show"); return; }
+    location.reload();
+  });
+
+  // ---- Orders ----
+  var orders = await RoseAuth.ordersForCurrentUser();
+  var list = document.getElementById("ordersList");
+  if(orders.length === 0){
+    list.innerHTML = '<p style="color:var(--text-soft); font-size:14px;">No orders yet — <a href="products.html" style="color:var(--rose); font-weight:600;">browse our formulations</a>.</p>';
+  } else {
+    orders.forEach(function(o){
+      var row = document.createElement("div");
+      row.className = "order-row";
+      var itemCount = (o.items || []).reduce(function(s,i){ return s + (i.qty || i.quantity || 1); }, 0);
+      var trackHtml = o.trackingNumber
+        ? '<div style="font-size:13px; margin-top:4px;">' + (o.courier || 'Courier') + ': ' + o.trackingNumber +
+          (o.trackingUrl ? ' — <a href="' + o.trackingUrl + '" target="_blank" rel="noopener" style="color:var(--rose); font-weight:600;">Track package</a>' : '') +
+          '</div>'
+        : '';
+      row.innerHTML = '<div><div class="oid">' + o.id + ' · ' + new Date(o.createdAt).toLocaleDateString() + '</div><div style="font-size:14px; margin-top:4px;">' + itemCount + ' item(s)</div>' + trackHtml + '</div><span class="status-pill">' + o.status + '</span>';
+      list.appendChild(row);
+    });
+  }
+
+  // ---- Addresses ----
+  var addrForm = document.getElementById("addressForm");
+  function esc(s){ return (s == null ? "" : String(s)).replace(/[&<>"]/g, function(c){ return ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"})[c]; }); }
+  function resetAddrForm(){
+    ["addrId","addrLabel","addrName","addrPhone","addrLine1","addrLine2","addrCity","addrState","addrPincode"].forEach(function(id){ document.getElementById(id).value = ""; });
+    document.getElementById("addrDefault").checked = false;
+    document.getElementById("addrLabel").value = "Home";
+  }
+  async function loadAddresses(){
+    var addresses = await RoseAuth.listAddresses();
+    var wrap = document.getElementById("addressList");
+    if(addresses.length === 0){
+      wrap.innerHTML = '<p style="color:var(--text-soft); font-size:14px;">No saved addresses yet.</p>';
+      return;
+    }
+    wrap.innerHTML = "";
+    addresses.forEach(function(a){
+      var card = document.createElement("div");
+      card.style.cssText = "border:1px solid var(--line,#e5e5e5); border-radius:var(--radius); padding:14px 16px; margin-bottom:10px;";
+      card.innerHTML =
+        '<div style="display:flex; justify-content:space-between; align-items:flex-start;">' +
+          '<div>' +
+            '<b>' + esc(a.label) + '</b>' + (a.is_default ? ' <span class="status-pill" style="font-size:11px;">Default</span>' : '') +
+            '<div style="font-size:14px; margin-top:4px; color:var(--text-soft);">' + esc(a.recipient_name) + ' · ' + esc(a.phone) + '<br>' +
+            esc(a.line1) + (a.line2 ? ', ' + esc(a.line2) : '') + '<br>' + esc(a.city) + ', ' + esc(a.state) + ' ' + esc(a.pincode) + '</div>' +
+          '</div>' +
+          '<div style="display:flex; gap:8px; flex-shrink:0;">' +
+            '<button class="btn btn-ghost btn-sm edit-addr" data-id="' + a.id + '">Edit</button>' +
+            '<button class="btn btn-ghost btn-sm del-addr" data-id="' + a.id + '">Delete</button>' +
+          '</div>' +
+        '</div>';
+      wrap.appendChild(card);
+      card.querySelector(".edit-addr").addEventListener("click", function(){
+        document.getElementById("addrId").value = a.id;
+        document.getElementById("addrLabel").value = a.label || "";
+        document.getElementById("addrName").value = a.recipient_name || "";
+        document.getElementById("addrPhone").value = a.phone || "";
+        document.getElementById("addrLine1").value = a.line1 || "";
+        document.getElementById("addrLine2").value = a.line2 || "";
+        document.getElementById("addrCity").value = a.city || "";
+        document.getElementById("addrState").value = a.state || "";
+        document.getElementById("addrPincode").value = a.pincode || "";
+        document.getElementById("addrDefault").checked = !!a.is_default;
+        addrForm.style.display = "block";
+      });
+      card.querySelector(".del-addr").addEventListener("click", async function(){
+        if(!confirm("Delete this address?")) return;
+        await RoseAuth.deleteAddress(a.id);
+        loadAddresses();
+      });
+    });
+  }
+  document.getElementById("addAddressBtn").addEventListener("click", function(){
+    resetAddrForm();
+    addrForm.style.display = "block";
+  });
+  document.getElementById("cancelAddrBtn").addEventListener("click", function(){
+    addrForm.style.display = "none";
+  });
+  document.getElementById("saveAddrBtn").addEventListener("click", async function(){
+    var errEl = document.getElementById("addrError");
+    errEl.classList.remove("show");
+    var payload = {
+      id: document.getElementById("addrId").value || undefined,
+      label: document.getElementById("addrLabel").value.trim() || "Home",
+      recipient_name: document.getElementById("addrName").value.trim(),
+      phone: document.getElementById("addrPhone").value.trim(),
+      line1: document.getElementById("addrLine1").value.trim(),
+      line2: document.getElementById("addrLine2").value.trim(),
+      city: document.getElementById("addrCity").value.trim(),
+      state: document.getElementById("addrState").value.trim(),
+      pincode: document.getElementById("addrPincode").value.trim(),
+      is_default: document.getElementById("addrDefault").checked,
+    };
+    if(!payload.recipient_name || !payload.phone || !payload.line1 || !payload.city || !payload.state || !payload.pincode){
+      errEl.textContent = "Please fill in all required fields.";
+      errEl.classList.add("show");
+      return;
+    }
+    var res = await RoseAuth.saveAddress(payload);
+    if(!res.ok){ errEl.textContent = res.error; errEl.classList.add("show"); return; }
+    addrForm.style.display = "none";
+    loadAddresses();
+  });
+  loadAddresses();
+}
+
+})();
+
+</script>
+</body>
+</html>
